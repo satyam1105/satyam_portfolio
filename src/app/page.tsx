@@ -141,14 +141,14 @@ export default function HomePage() {
               </div>
 
               {/* Profile Image container */}
-              <div className="relative aspect-4/5 w-full border-[3px] border-black overflow-hidden bg-neutral-100">
+              <div className="relative aspect-square w-full border-[3px] border-black overflow-hidden bg-black">
                 <Image
                   src={portfolioData.personal.avatarPath}
                   alt="Satyam Shukla - Web Designer & Full Stack Developer"
                   fill
                   priority
                   sizes="(max-width: 768px) 100vw, 400px"
-                  className="object-cover object-top contrast-105"
+                  className="object-cover object-center"
                 />
                 <div className="absolute bottom-0 inset-x-0 bg-black/85 text-white p-2.5 font-mono text-xs border-t-2 border-black flex justify-between items-center">
                   <span className="text-[#D4FF00] font-black">SATYAM SHUKLA</span>
